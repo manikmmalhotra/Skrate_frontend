@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fruktur&family=Mochiy+Pop+P+One&family=Poppins:wght@100;200;300;400;500&family=Source+Sans+3:wght@300;400&family=Zen+Antique+Soft&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+/* ------------------------------ Header -----------------------*/
+.header {
+  display: flex;
+  align-items:center;
+  width:98%;
+  justify-content: space-between;
+  font-family: Poppins;
+  font-style: normal;
+  height: 10vh;
+  margin:auto;
+  position:sticky;
+  top:0;
+  background-color:#fff;
+  margin-bottom:2vh;
+}
+.heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #181818;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 51px;
+  height: 51px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.username {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+/*-----------------------------Main -----------*/
+.Main {
+  display: flex;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+/* ------------------------Overview ------------------------*/
+.Overview,
+.Sessions {
+  height: 38vh;
+  width: 42vw;
+  margin-left: 22px;
+  background: #ffffff;
+  border: 1px solid #fdfdfd;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.Overview .Header,
+.Sessions .Header,
+.Jobs .Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 30px;
+  height: 8vh;
+}
+h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Button {
+  font-size: 15px;
+  width: 135px;
+  height: 52px;
+  background: #f6f7ff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+}
+
+.Main-body {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 18vw;
+  height: 11vh;
+  background: #f6f7ff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.content .heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+.heading2{
+  font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+  color: #181818;
+  flex:0.8;
+  margin-left:20px;
+}
+.Value {
+  color: #4f65f6;
+  font-size: 36px;
+  font-weight: 500;
+  margin-right:20px;
+}
+/*-------------------------Sessions------------------------*/
+.Sessions {
+  margin-top: 2vw;
+}
+
+.lower-part {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 35px;
+}
+#mentor {
+  background: #e8c9d1;
+}
+#review {
+  background: #91aee1;
+}
+.lower-part .Button {
+  width: 120px;
+}
+.users {
+  width: 51px;
+  height: 51px;
+}
+.Jobs {
+  height: 80vh;
+  width: 42vw;
+  margin-left: 22px;
+  background: #ffffff;
+  border: 1px solid #fdfdfd;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.date {
+  align-items: center;
+  text-align: center;
+}
+/* ----------------------------- JOBS -----------------------------*/
+.job {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+  padding: 0 10px;
+  margin: 10px 0;
+}
+li {
+  list-style: none;
+}
+.company-logo {
+  height: 51px;
+  width: 51px;
+  text-align: center;
+}
+.Name,
+.Time {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+.Company {
+  font-size: 16px;
+}
+.type {
+  font-size: 14px;
+}
+.Time:hover,
+.Time:active {
+  text-decoration: none;
+  color: #4e9e79;
+  cursor: pointer;
+}
+/* --------------------------------------Navigation------------------------*/
+
+.Navigation {
+  width: fit-content;
+  height: max-content;
+  padding-right:50px;
+}
+.Icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0px;
+  padding: 4px 4px;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover {
+  background: #f6f7ff;
+}
